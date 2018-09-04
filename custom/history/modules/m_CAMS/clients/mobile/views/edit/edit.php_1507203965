@@ -1,0 +1,102 @@
+<?php
+$module_name = 'm_CAMS';
+$viewdefs[$module_name] = 
+array (
+  'mobile' => 
+  array (
+    'view' => 
+    array (
+      'edit' => 
+      array (
+        'templateMeta' => 
+        array (
+          'maxColumns' => '1',
+          'widths' => 
+          array (
+            0 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+            1 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+          ),
+          'useTabs' => false,
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_PANEL_DEFAULT',
+            'columns' => '1',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'community',
+                'label' => 'LBL_COMMUNITY',
+              ),
+              1 => 
+              array (
+                'name' => 'phase',
+                'label' => 'LBL_PHASE',
+              ),
+              2 => 
+              array (
+                'span' => 12,
+              ),
+              3 => 
+              array (
+                'name' => 'floor_plan',
+                'label' => 'LBL_FLOOR_PLAN',
+              ),
+              4 => 
+              array (
+                'span' => 12,
+              ),
+              5 => 
+              array (
+                'span' => 12,
+              ),
+              6 => 
+              array (
+                'name' => 'job_number',
+                'label' => 'LBL_JOB_NUMBER',
+              ),
+              7 => 
+              array (
+                'span' => 12,
+              ),
+              8 => 
+              array (
+                'span' => 12,
+              ),
+              9 => 
+              array (
+                'span' => 12,
+              ),
+              10 => 
+              array (
+                'span' => 12,
+              ),
+              11 => 
+              array (
+                'span' => 12,
+              ),
+              12 => 'assigned_user_name',
+              13 => 'team_name',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

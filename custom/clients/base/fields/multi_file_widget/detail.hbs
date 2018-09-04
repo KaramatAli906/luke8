@@ -1,0 +1,27 @@
+
+
+
+<table class="table table-striped dataTable">
+
+    <tbody>
+        {{#each attachmentCollection.models}}
+            <tr name="{{../subpanelModule}}_{{attributes.id}}" module="{{../subpanelModule}}" data-id="{{attributes.id}}" class="single">
+                {{#each ../columnsMeta}} 
+                    {{#if readonly}}
+                        <td class="rowcell subpanel-field cbi-rowcell" data-name="{{name}}" style="line-height: 30px !important;">
+                            {{field ../../../view model=../../this template="detail"}}
+                        </td>
+                    {{else}}
+                        <td class="rowcell subpanel-field cbi-rowcell cutting-board-fld"  data-name="{{name}}" style="line-height: 30px !important;">
+                            {{field ../../../view model=../../this template=../../template}}
+                        </td>
+                    {{/if}} 
+                {{/each}}
+     
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+
+<div id="{{createWrapper}}"></div>

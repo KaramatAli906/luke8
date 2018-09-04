@@ -1,0 +1,47 @@
+<?php
+// created: 2018-03-04 21:46:46
+$viewdefs['Notes']['base']['view']['subpanel-for-leads-notes'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'label' => 'LBL_LIST_SUBJECT',
+          'enabled' => true,
+          'default' => true,
+          'name' => 'name',
+          'link' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'description',
+          'label' => 'LBL_DESCRIPTION',
+          'enabled' => true,
+          'sortable' => false,
+          'default' => true,
+          'width' => 'xlarge',
+        ),
+        2 => 
+        array (
+          'label' => 'LBL_LIST_DATE_MODIFIED',
+          'enabled' => true,
+          'default' => true,
+          'name' => 'date_modified',
+        ),
+        3 => 
+        array (
+          'label' => 'LBL_LIST_DATE_ENTERED',
+          'enabled' => true,
+          'default' => true,
+          'name' => 'date_entered',
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

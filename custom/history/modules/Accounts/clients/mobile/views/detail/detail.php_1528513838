@@ -1,0 +1,174 @@
+<?php
+$viewdefs['Accounts'] = 
+array (
+  'mobile' => 
+  array (
+    'view' => 
+    array (
+      'detail' => 
+      array (
+        'templateMeta' => 
+        array (
+          'maxColumns' => '1',
+          'widths' => 
+          array (
+            0 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+          ),
+          'useTabs' => false,
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_PANEL_DEFAULT',
+            'columns' => '1',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'account_type',
+                'comment' => 'The Company is of this type',
+                'label' => 'LBL_TYPE',
+              ),
+              1 => 
+              array (
+                'name' => 'sub_status_c',
+                'label' => 'LBL_SUB_STATUS',
+              ),
+              2 => 
+              array (
+                'name' => 'account_trade',
+                'label' => 'LBL_ACCOUNT_TRADE',
+              ),
+              3 => 'email',
+              4 => 'phone_office',
+              5 => 
+              array (
+                'name' => 'phone_alternate',
+                'comment' => 'An alternate phone number',
+                'label' => 'LBL_PHONE_ALT',
+              ),
+              6 => 
+              array (
+                'name' => 'website',
+                'displayParams' => 
+                array (
+                  'type' => 'link',
+                ),
+              ),
+              7 => 
+              array (
+                'name' => 'phone_fax',
+                'comment' => 'The fax phone number of this company',
+                'label' => 'LBL_FAX',
+              ),
+              8 => 
+              array (
+                'name' => 'parent_name',
+                'label' => 'LBL_MEMBER_OF',
+              ),
+              9 => 'team_name',
+              10 => 'shipping_address_street',
+              11 => 'shipping_address_city',
+              12 => 'shipping_address_state',
+              13 => 'shipping_address_postalcode',
+              14 => 'shipping_address_country',
+              15 => 
+              array (
+                'name' => 'description',
+                'comment' => 'Full text of the note',
+                'label' => 'LBL_DESCRIPTION',
+              ),
+              16 => 
+              array (
+                'name' => 'tag',
+                'studio' => 
+                array (
+                  'portal' => false,
+                  'base' => 
+                  array (
+                    'popuplist' => false,
+                  ),
+                  'mobile' => 
+                  array (
+                    'wirelesseditview' => true,
+                    'wirelessdetailview' => true,
+                  ),
+                ),
+                'label' => 'LBL_TAGS',
+              ),
+              17 => 
+              array (
+                'name' => 'market',
+                'label' => 'LBL_MARKET',
+              ),
+              18 => 
+              array (
+                'name' => 'ccb_num',
+                'studio' => true,
+                'label' => 'LBL_CCB_NUM',
+              ),
+              19 => 
+              array (
+                'name' => 'ccb_expiration_date',
+                'label' => 'LBL_CCB_EXPIRATION_DATE',
+              ),
+              20 => 
+              array (
+                'name' => 'tin',
+                'studio' => true,
+                'label' => 'LBL_TIN',
+              ),
+              21 => 
+              array (
+                'name' => 'insurance_exp',
+                'label' => 'LBL_INSURANCE_EXP',
+              ),
+              22 => 
+              array (
+                'name' => 'workers_comp_exp_c',
+                'label' => 'LBL_WORKERS_COMP_EXP',
+              ),
+              23 => 'assigned_user_name',
+              24 => 
+              array (
+                'name' => 'date_modified',
+                'comment' => 'Date record last modified',
+                'studio' => 
+                array (
+                  'portaleditview' => false,
+                ),
+                'readonly' => true,
+                'label' => 'LBL_DATE_MODIFIED',
+              ),
+              25 => 
+              array (
+                'name' => 'date_entered',
+                'comment' => 'Date record created',
+                'studio' => 
+                array (
+                  'portaleditview' => false,
+                ),
+                'readonly' => true,
+                'label' => 'LBL_DATE_ENTERED',
+              ),
+              26 => 
+              array (
+                'span' => 12,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

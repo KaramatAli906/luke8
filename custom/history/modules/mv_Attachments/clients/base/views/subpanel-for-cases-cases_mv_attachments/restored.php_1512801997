@@ -1,0 +1,55 @@
+<?php
+// created: 2017-12-09 06:46:36
+$viewdefs['mv_Attachments']['base']['view']['subpanel-for-cases-cases_mv_attachments'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'document_name',
+          'label' => 'LBL_LIST_DOCUMENT_NAME',
+          'enabled' => true,
+          'default' => true,
+          'link' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'category_id',
+          'label' => 'LBL_SF_CATEGORY',
+          'enabled' => true,
+          'default' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'uploadfile',
+          'label' => 'LBL_FILE_UPLOAD',
+          'enabled' => true,
+          'default' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'active_date',
+          'label' => 'LBL_DOC_ACTIVE_DATE',
+          'enabled' => true,
+          'default' => true,
+        ),
+        4 => 
+        array (
+          'name' => 'parent_name',
+          'label' => 'LBL_FLEX_RELATE',
+          'enabled' => true,
+          'id' => 'PARENT_ID',
+          'link' => true,
+          'sortable' => false,
+          'default' => true,
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

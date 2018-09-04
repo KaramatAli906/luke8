@@ -1,0 +1,119 @@
+<?php
+$viewdefs['Cases'] = 
+array (
+  'mobile' => 
+  array (
+    'view' => 
+    array (
+      'detail' => 
+      array (
+        'templateMeta' => 
+        array (
+          'maxColumns' => '1',
+          'widths' => 
+          array (
+            0 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+          ),
+          'useTabs' => false,
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_PANEL_DEFAULT',
+            'columns' => '1',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 'status',
+              1 => 
+              array (
+                'span' => 12,
+              ),
+              2 => 
+              array (
+                'name' => 'case_number',
+                'displayParams' => 
+                array (
+                  'required' => false,
+                  'wireless_detail_only' => true,
+                ),
+              ),
+              3 => 'assigned_user_name',
+              4 => 
+              array (
+                'name' => 'request_completed_date_c',
+                'label' => 'LBL_REQUEST_COMPLETED_DATE',
+              ),
+              5 => 
+              array (
+                'name' => 'warranty_exp_date_c',
+                'label' => 'LBL_WARRANTY_EXP_DATE',
+              ),
+              6 => 
+              array (
+                'name' => 'opportunities_cases_1_name',
+                'label' => 'LBL_OPPORTUNITIES_CASES_1_FROM_OPPORTUNITIES_TITLE',
+              ),
+              7 => 'resolution',
+              8 => 'account_name',
+              9 => 
+              array (
+                'name' => 'consultation_date_c',
+                'label' => 'LBL_CONSULTATION_DATE',
+              ),
+              10 => 
+              array (
+                'name' => 'service_call_duration_c',
+                'label' => 'LBL_SERVICE_CALL_DURATION',
+              ),
+              11 => 
+              array (
+                'name' => 'service_date_c',
+                'label' => 'LBL_SERVICE_DATE',
+              ),
+              12 => 
+              array (
+                'name' => 'community_c',
+                'label' => 'LBL_COMMUNITY',
+              ),
+              13 => 
+              array (
+                'name' => 'job_code_c',
+                'label' => 'LBL_JOB_CODE',
+              ),
+              14 => 
+              array (
+                'name' => 'elevation_c',
+                'label' => 'LBL_ELEVATION',
+              ),
+              15 => 
+              array (
+                'name' => 'floor_plan_c',
+                'label' => 'LBL_FLOOR_PLAN',
+              ),
+              16 => 
+              array (
+                'name' => 'garage_type_c',
+                'label' => 'LBL_GARAGE_TYPE',
+              ),
+              17 => 
+              array (
+                'name' => 'square_feet_c',
+                'label' => 'LBL_SQUARE_FEET',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

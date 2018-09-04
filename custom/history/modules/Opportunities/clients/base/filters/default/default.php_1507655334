@@ -1,0 +1,64 @@
+<?php
+// created: 2017-10-01 13:34:38
+$viewdefs['Opportunities']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'account_name' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'date_closed' => 
+    array (
+    ),
+    'commission_percent' => 
+    array (
+    ),
+    'amount' => 
+    array (
+    ),
+    'customer_age' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'date_modified' => 
+    array (
+    ),
+    'garage_type' => 
+    array (
+    ),
+    'job_code' => 
+    array (
+    ),
+    'last_addendum' => 
+    array (
+    ),
+    'lead_source' => 
+    array (
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    'name' => 
+    array (
+    ),
+    'phase' => 
+    array (
+    ),
+    'probability' => 
+    array (
+    ),
+    'opportunity_type' => 
+    array (
+    ),
+    'sales_stage' => 
+    array (
+    ),
+  ),
+);

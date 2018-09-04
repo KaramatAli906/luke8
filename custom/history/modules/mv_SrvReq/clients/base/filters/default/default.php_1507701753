@@ -1,0 +1,30 @@
+<?php
+// created: 2017-10-06 20:38:38
+$viewdefs['mv_SrvReq']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'fields' => 
+  array (
+    'assigned_user_name' => 
+    array (
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    'name' => 
+    array (
+    ),
+    'status' => 
+    array (
+    ),
+    'tag' => 
+    array (
+    ),
+  ),
+);

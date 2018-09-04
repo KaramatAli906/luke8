@@ -1,0 +1,84 @@
+<?php
+$viewdefs['Leads'] = 
+array (
+  'mobile' => 
+  array (
+    'view' => 
+    array (
+      'edit' => 
+      array (
+        'templateMeta' => 
+        array (
+          'maxColumns' => '1',
+          'widths' => 
+          array (
+            0 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+          ),
+          'useTabs' => false,
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_PANEL_DEFAULT',
+            'columns' => '1',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'first_name',
+                'customCode' => '{html_options name="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
+                'displayParams' => 
+                array (
+                  'wireless_edit_only' => true,
+                ),
+              ),
+              1 => 
+              array (
+                'name' => 'last_name',
+                'displayParams' => 
+                array (
+                  'wireless_edit_only' => true,
+                ),
+              ),
+              2 => 'title',
+              3 => 'phone_mobile',
+              4 => 'email',
+              5 => 'phone_home',
+              6 => 'phone_work',
+              7 => 
+              array (
+                'name' => 'phone_other',
+                'comment' => 'Other phone number for the contact',
+                'label' => 'LBL_OTHER_PHONE',
+              ),
+              8 => 
+              array (
+                'name' => 'website',
+                'comment' => 'URL of website for the company',
+                'label' => 'LBL_WEBSITE',
+              ),
+              9 => 'team_name',
+              10 => 'assigned_user_name',
+              11 => 'status',
+              12 => 'primary_address_street',
+              13 => 'primary_address_city',
+              14 => 'primary_address_state',
+              15 => 'primary_address_postalcode',
+              16 => 'primary_address_country',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

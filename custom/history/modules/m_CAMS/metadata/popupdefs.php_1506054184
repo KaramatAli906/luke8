@@ -1,0 +1,402 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'm_CAMS',
+    'varName' => 'm_CAMS',
+    'orderBy' => 'm_cams.name',
+    'whereClauses' => array (
+  'name' => 'm_cams.name',
+),
+    'searchInputs' => array (
+  0 => 'm_cams_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+    'name' => 'name',
+  ),
+  'TEAM_NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_TEAM',
+    'default' => true,
+    'name' => 'team_name',
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => 10,
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+    'name' => 'assigned_user_name',
+  ),
+  'CONTRACT_PRICE' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_CONTRACT_PRICE',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'LOT_COST_1' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_LOT_COST_1',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'LOT_COST_1_EXP' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_LOT_COST_1_EXP',
+    'width' => 10,
+    'default' => true,
+  ),
+  'ELEVATION' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_ELEVATION',
+    'width' => 10,
+  ),
+  'LOAN_MATURITY_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_LOAN_MATURITY_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'CONSTRUCTION_NOTE' => 
+  array (
+    'type' => 'text',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_CONSTRUCTION_NOTE',
+    'sortable' => false,
+    'width' => 10,
+  ),
+  'GARAGE_TYPE' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_GARAGE_TYPE',
+    'width' => 10,
+  ),
+  'PERMIT_UPLOAD_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_PERMIT_UPLOAD_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'PERMIT_NUMBER' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_PERMIT_NUMBER',
+    'width' => 10,
+  ),
+  'PERMIT_TOTAL_DAYS' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_PERMIT_TOTAL_DAYS',
+    'width' => 10,
+  ),
+  'LOAN_COMMENT' => 
+  array (
+    'type' => 'text',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_LOAN_COMMENT',
+    'sortable' => false,
+    'width' => 10,
+  ),
+  'BOOKS_CLOSED' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_BOOKS_CLOSED',
+    'width' => 10,
+    'default' => true,
+  ),
+  'PERMIT_ISSUED_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_PERMIT_ISSUED_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'SALE_TYPE' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_SALE_TYPE',
+    'width' => 10,
+  ),
+  'PERMIT_STATUS_NOTE' => 
+  array (
+    'type' => 'text',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_PERMIT_STATUS_NOTE',
+    'sortable' => false,
+    'width' => 10,
+  ),
+  'FLOOR_PLAN' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_FLOOR_PLAN',
+    'width' => 10,
+  ),
+  'SUBDIVISION' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_SUBDIVISION',
+    'width' => 10,
+  ),
+  'LOAN_NUMBER' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_LOAN_NUMBER',
+    'width' => 10,
+  ),
+  'CONSTRUCTION_STAGE' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_CONSTRUCTION_STAGE',
+    'width' => 10,
+  ),
+  'LOAN_STATUS' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_LOAN_STATUS',
+    'width' => 10,
+  ),
+  'PROJECTED_START_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_PROJECTED_START_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'SUPERINTENDENT' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_SUPERINTENDENT',
+    'width' => 10,
+  ),
+  'LENDER' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_LENDER',
+    'width' => 10,
+  ),
+  'HARD_COST_PER_SALES' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_HARD_COST_PER_SALES',
+    'width' => 10,
+  ),
+  'LOAN_BALANCE_REMAINING' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_LOAN_BALANCE_REMAINING',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'TOTAL_BUILD_DAYS' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_TOTAL_BUILD_DAYS',
+    'width' => 10,
+  ),
+  'COST_VARIANCE_BUDGET' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_COST_VARIANCE_BUDGET',
+    'width' => 10,
+  ),
+  'LOT_COST_PERCENT' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_LOT_COST_PERCENT',
+    'width' => 10,
+  ),
+  'ACTUAL_HARD_COSTS' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_ACTUAL_HARD_COSTS',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'ACTUAL_LOT_COST' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_ACTUAL_LOT_COST',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'DATE_MODIFIED' => 
+  array (
+    'type' => 'datetime',
+    'studio' => 
+    array (
+      'portaleditview' => false,
+    ),
+    'readonly' => true,
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => 10,
+    'default' => true,
+  ),
+  'LOAN_BALANCE_CURRENT' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_LOAN_BALANCE_CURRENT',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'LOAN_MAX' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'related_fields' => 
+    array (
+      0 => 'currency_id',
+      1 => 'base_rate',
+    ),
+    'label' => 'LBL_LOAN_MAX',
+    'currency_format' => true,
+    'width' => 10,
+  ),
+  'JOB_NUMBER' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_JOB_NUMBER',
+    'width' => 10,
+  ),
+  'SALES_STAGE' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'label' => 'LBL_SALES_STAGE',
+    'width' => 10,
+  ),
+  'SQUARE_FOOTAGE' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_SQUARE_FOOTAGE',
+    'width' => 10,
+  ),
+  'PENDING_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_PENDING_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'CLOSING_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_CLOSING_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'OPPORTUNITY' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_OPPORTUNITY',
+    'id' => 'OPPORTUNITY_ID_C',
+    'link' => true,
+    'width' => 10,
+    'default' => true,
+  ),
+  'CONST_FINISH_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_CONST_FINISH_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'CONST_START_DATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_CONST_START_DATE',
+    'width' => 10,
+    'default' => true,
+  ),
+  'DESCRIPTION' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => 10,
+    'default' => true,
+  ),
+  'CREATED_BY_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'readonly' => true,
+    'label' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => 10,
+    'default' => true,
+  ),
+),
+);

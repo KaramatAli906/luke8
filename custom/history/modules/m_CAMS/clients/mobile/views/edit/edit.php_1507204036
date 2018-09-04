@@ -1,0 +1,109 @@
+<?php
+$module_name = 'm_CAMS';
+$viewdefs[$module_name] = 
+array (
+  'mobile' => 
+  array (
+    'view' => 
+    array (
+      'edit' => 
+      array (
+        'templateMeta' => 
+        array (
+          'maxColumns' => '1',
+          'widths' => 
+          array (
+            0 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+            1 => 
+            array (
+              'label' => '10',
+              'field' => '30',
+            ),
+          ),
+          'useTabs' => false,
+        ),
+        'panels' => 
+        array (
+          0 => 
+          array (
+            'label' => 'LBL_PANEL_DEFAULT',
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_PANEL_DEFAULT',
+            'columns' => '1',
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'community',
+                'label' => 'LBL_COMMUNITY',
+              ),
+              1 => 
+              array (
+                'name' => 'phase',
+                'label' => 'LBL_PHASE',
+              ),
+              2 => 
+              array (
+                'span' => 12,
+              ),
+              3 => 
+              array (
+                'name' => 'job_number',
+                'label' => 'LBL_JOB_NUMBER',
+              ),
+              4 => 
+              array (
+                'span' => 12,
+              ),
+              5 => 
+              array (
+                'span' => 12,
+              ),
+              6 => 
+              array (
+                'name' => 'floor_plan',
+                'label' => 'LBL_FLOOR_PLAN',
+              ),
+              7 => 
+              array (
+                'name' => 'elevation',
+                'label' => 'LBL_ELEVATION',
+              ),
+              8 => 
+              array (
+                'name' => 'square_footage',
+                'label' => 'LBL_SQUARE_FOOTAGE',
+              ),
+              9 => 
+              array (
+                'name' => 'garage_type',
+                'label' => 'LBL_GARAGE_TYPE',
+              ),
+              10 => 
+              array (
+                'name' => 'primary_address_street',
+                'comment' => 'The street address used for for primary purposes',
+                'label' => 'LBL_PRIMARY_ADDRESS_STREET',
+              ),
+              11 => 
+              array (
+                'name' => 'primary_address_city',
+                'comment' => 'The city used for the primary address',
+                'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+              ),
+              12 => 'assigned_user_name',
+              13 => 'team_name',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

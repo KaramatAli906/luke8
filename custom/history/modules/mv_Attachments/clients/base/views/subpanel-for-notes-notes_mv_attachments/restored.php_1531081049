@@ -1,0 +1,38 @@
+<?php
+// created: 2018-07-08 20:17:24
+$viewdefs['mv_Attachments']['base']['view']['subpanel-for-notes-notes_mv_attachments'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'name',
+          'label' => 'LBL_NAME',
+          'enabled' => true,
+          'default' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'document_name',
+          'label' => 'LBL_LIST_DOCUMENT_NAME',
+          'enabled' => true,
+          'default' => true,
+          'link' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'active_date',
+          'label' => 'LBL_DOC_ACTIVE_DATE',
+          'enabled' => true,
+          'default' => true,
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

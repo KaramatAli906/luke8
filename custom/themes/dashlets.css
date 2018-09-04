@@ -1,0 +1,97 @@
+/*
+ * Tracking Envelope Dashlet
+ */
+.track_docusign_env {
+    padding: 10px 0px;
+} 
+.track_docusign_env .track_filters{
+    padding: 8px;
+    padding-top: 0px;
+}
+.track_docusign_env .docusign_main{
+    overflow-x: auto;
+} 
+
+.track_docusign_env .element{
+    margin-right: 10px;
+}
+.track_docusign_env #docusign_main{
+    height: 410px !important;
+    overflow: auto !important;
+    clear: both;
+}
+.track_docusign_env .env{
+    background: #f6f6f6;
+} 
+.track_docusign_env #docusign_main table tr .up_down{
+    min-width: 28px !important;
+}
+.track_docusign_env #docusign_main table tr th{
+    font-weight: bold;
+}
+.track_docusign_env .show_contacts{
+    cursor: pointer;
+} 
+.track_docusign_env .no_contact{
+    text-align: center;
+}
+.track_docusign_env .more_env{
+    text-decoration: none !important;
+} 
+.track_docusign_env table .fa-cog{
+    text-align: center;
+} 
+.track_docusign_env .fa-times{
+    cursor: pointer;
+}
+.track_docusign_env .sort{
+    cursor: pointer;
+}
+.track_docusign_env .sort_dirc{
+    float: right;
+    margin-top: 6px;
+} 
+.track_docusign_env #track_details .the-icons{
+    text-align: center;
+} 
+
+.track_docusign_env .track_filters .record-label{
+    width: 5% !important;
+} 
+.track_docusign_env .track_filters .custom-filter{
+    float: left;
+    width: 20% !important;
+    margin-bottom: 10px;
+}
+
+/*
+ * Send Documents for Signatures
+ */
+.send_docs_main{
+    padding-left: 10px;
+}
+.send_docs_main .signed_attachment_type,
+.send_docs_main .documents_type,
+.send_docs_main .signed_attachment_name{
+    margin-top: 17px;
+    margin-left: 0px;
+}
+.send_docs_main .select_initial{
+    width: 31%;
+    margin-bottom: 0px;
+}
+.send_docs_main .attached_contacts .select2-container,
+.send_docs_main #contacts_grid input{
+    width: 100%;
+}
+.send_docs_main .docusign_templates{
+    width: 100% !important;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.send_docs_main .template_roles{
+    margin-left: 98px;
+}
+.send_docs_main .template_msg{
+    margin-left: 6px;
+}

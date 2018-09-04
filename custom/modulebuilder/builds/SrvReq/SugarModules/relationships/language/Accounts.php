@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_MV_SRVREQ_ACCOUNTS_FROM_MV_SRVREQ_TITLE'] = 'Service Requests';
+$mod_strings['LBL_MV_SRVREQ_ACCOUNTS_FROM_ACCOUNTS_TITLE'] = 'Service Requests';

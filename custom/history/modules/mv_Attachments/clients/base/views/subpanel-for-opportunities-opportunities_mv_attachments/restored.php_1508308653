@@ -1,0 +1,54 @@
+<?php
+// created: 2017-10-18 01:37:29
+$viewdefs['mv_Attachments']['base']['view']['subpanel-for-opportunities-opportunities_mv_attachments'] = array (
+  'panels' => 
+  array (
+    0 => 
+    array (
+      'name' => 'panel_header',
+      'label' => 'LBL_PANEL_1',
+      'fields' => 
+      array (
+        0 => 
+        array (
+          'name' => 'document_name',
+          'label' => 'LBL_LIST_DOCUMENT_NAME',
+          'enabled' => true,
+          'default' => true,
+          'link' => true,
+        ),
+        1 => 
+        array (
+          'name' => 'category_id',
+          'label' => 'LBL_SF_CATEGORY',
+          'enabled' => true,
+          'default' => true,
+        ),
+        2 => 
+        array (
+          'name' => 'uploadfile',
+          'label' => 'LBL_FILE_UPLOAD',
+          'enabled' => true,
+          'default' => true,
+        ),
+        3 => 
+        array (
+          'name' => 'assigned_user_name',
+          'label' => 'LBL_ASSIGNED_TO',
+          'enabled' => true,
+          'id' => 'ASSIGNED_USER_ID',
+          'link' => true,
+          'default' => true,
+        ),
+        4 => 
+        array (
+          'name' => 'active_date',
+          'label' => 'LBL_DOC_ACTIVE_DATE',
+          'enabled' => true,
+          'default' => true,
+        ),
+      ),
+    ),
+  ),
+  'type' => 'subpanel-list',
+);

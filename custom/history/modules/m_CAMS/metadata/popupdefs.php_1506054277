@@ -1,0 +1,17 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'm_CAMS',
+    'varName' => 'm_CAMS',
+    'orderBy' => 'm_cams.name',
+    'whereClauses' => array (
+  'name' => 'm_cams.name',
+),
+    'searchInputs' => array (
+  0 => 'm_cams_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+),
+);

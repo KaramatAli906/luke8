@@ -1,0 +1,32 @@
+<?php
+ // created: 2018-07-26 16:53:18
+
+$app_list_strings['document_template_type_dom']=array (
+  '' => '',
+  'Warranty Item' => 'Warranty Item',
+  'EMA' => 'EMA',
+  'Pre Approval' => 'Pre Approval',
+  'Addendum PC1' => 'Addendum PC1, SPLX',
+  'Addendum PreCon or Spec' => 'Addendum PreCon or Spec',
+  'Addendum General' => 'Addendum General',
+  'Orientation Form' => 'Orientation Form',
+  'Transaction File' => 'Transaction File',
+  'Subcontract Information Form' => 'Subcontract - Information Form',
+  'Subcontract' => 'Subcontract - Master Agreement',
+  'Sub Exhibit A' => 'Subcontract - Exhibit A',
+  'Sub Exhibit B' => 'Subcontract - Exhibit B',
+  'Sub Insurance' => 'Subcontract - Insurance',
+  'Subcontract CCB' => 'Subcontract - CCB #',
+  'Change Order' => 'Change Order',
+  'Other' => 'Other',
+  'Warranty Sign Off' => 'Warranty Sign Off',
+  'Mark Up Plans' => 'Mark Up Plans',
+  'Color Selections' => 'Color Selections',
+  'Checks' => 'Checks or Deposits',
+  'Closing Docs' => 'Closing Docs',
+  'Sub_Other' => 'Sub- Other',
+  'Sub Archive' => 'Sub - Archive',
+  'SubW9' => 'Sub - W9',
+  'Site Plan' => 'Site Plan',
+  'Budget' => 'Budget',
+);

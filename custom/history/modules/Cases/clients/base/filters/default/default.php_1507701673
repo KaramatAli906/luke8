@@ -1,0 +1,51 @@
+<?php
+// created: 2017-09-29 23:39:10
+$viewdefs['Cases']['base']['filter']['default'] = array (
+  'default_filter' => 'all_records',
+  'quicksearch_field' => 
+  array (
+    0 => 'name',
+    1 => 'case_number',
+  ),
+  'quicksearch_priority' => 2,
+  'fields' => 
+  array (
+    'account_name' => 
+    array (
+    ),
+    'assigned_user_name' => 
+    array (
+    ),
+    'date_entered' => 
+    array (
+    ),
+    'date_modified' => 
+    array (
+    ),
+    '$favorite' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_FAVORITES_FILTER',
+    ),
+    '$owner' => 
+    array (
+      'predefined_filter' => true,
+      'vname' => 'LBL_CURRENT_USER_FILTER',
+    ),
+    'opportunities_cases_1_name' => 
+    array (
+    ),
+    'case_number' => 
+    array (
+    ),
+    'status' => 
+    array (
+    ),
+    'name' => 
+    array (
+    ),
+    'tag' => 
+    array (
+    ),
+  ),
+);
